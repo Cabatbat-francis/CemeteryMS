@@ -1,0 +1,54 @@
+.border-grey{
+    border:2px grey solid;
+}
+.border-lightgrey{
+    border:2px #bbb solid;
+}
+.text-bold{
+    font-weight: bold;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-30{
+    font-size: 30px;
+}
+
+.card-burial-standard{
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-header-burial-standard{
+    background-color: #dfdfdf;
+}
+
+.card-burial-premium{
+    background-color: black;
+    color: lightgray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-header-burial-premium{
+    background-color: #333;
+    color: lightgray;
+}
+
+.card-burial-vvip{
+    background-color:darkslateblue;
+    color: gold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-header-burial-vvip{
+    background-color: darkblue;
+    color: goldenrod;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px goldenrod, 0 0 40px goldenrod, 0 0 50px goldenrod, 0 0 60px goldenrod, 0 0 70px goldenrod;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px gold, 0 0 40px gold, 0 0 50px gold, 0 0 60px gold, 0 0 70px gold, 0 0 80px gold;
+    }
+  }
